@@ -1,0 +1,80 @@
+.white-keys{
+    background-color: dimgray ;
+    color: black;
+    width : max-content;
+    height: 300px;
+    margin : auto;
+    margin-top : 300px;
+
+
+}
+.black-keys{
+    background-color: olive;
+    color : black;
+    width: max-content;
+    height: 50px;
+    margin : auto;
+    text-align: center;
+    display: inline-block;
+
+}
+.white-keys kbd {
+
+    width:100px;
+    height: 300px;
+    align-content: center;
+    border: 5px solid gray;
+    display: inline-block;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 700;
+    background-color: white;
+
+    margin-left: -5px;
+    padding: 100px 0 0 0;
+
+}
+
+.black-keys kbd {
+    background-color: black;
+    width: 50px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 150;
+    color : white;
+
+
+    z-index: 1;
+}
+
+.w {
+    position : relative;
+    top : 355px;
+    left : 200px;
+}
+.e {
+    position : relative;
+    top : 355px;
+    left : 260px;
+}
+.t {
+    position : relative;
+    top : 355px;
+    left : 422px;
+}
+.y {
+    position : relative;
+    top : 355px;
+    left : 478px;
+}
+.u  {
+    position : relative;
+    top : 355px;
+    left : 535px;
+}
+
+html{
+    background: olive;
+}
